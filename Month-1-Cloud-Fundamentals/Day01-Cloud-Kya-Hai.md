@@ -240,6 +240,33 @@ Services menu → Ye dekho:
 
 ---
 
+## HANDS-ON — AAJ KYA KIYA
+
+**AWS Free Tier Account Banaya:**
+
+```
+Step 1: aws.amazon.com/free pe gaye
+Step 2: "Create a Free Account" click kiya
+Step 3: Email, password, account name diya
+Step 4: Personal account select kiya
+Step 5: Credit/Debit card details diye (charge nahi hoga Free Tier mein)
+Step 6: Phone number se OTP verify kiya
+Step 7: Free plan (Basic Support) select kiya
+Step 8: AWS Console mein login kiya — SUCCESS! ✓
+```
+
+**AWS Console Explore Kiya:**
+
+```
+Region: ap-south-1 (Mumbai) select kiya ✓
+Services dekhe: EC2, S3, RDS, VPC, IAM ✓
+Account ID note kiya: 313038579212 ✓
+```
+
+**Result:** AWS account ready — ab cloud journey shuru!
+
+---
+
 ## DAY 1 — 5 PRACTICE QUESTIONS
 
 **Q1.** Cloud computing kya hai? Simple mein samjhao.

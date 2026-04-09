@@ -139,18 +139,29 @@ State:         Stopped (band kiya)
 
 ---
 
-## HANDS-ON SUMMARY
+## HANDS-ON — AAJ KYA KIYA
+
+**AWS Console → EC2 → Launch Instance**
 
 ```
-Aaj kiya:
-✓ EC2 Dashboard dekha
-✓ "Launch Instance" pe gaye
-✓ Amazon Linux 2023 AMI select ki
-✓ t3.micro (Free Tier) select ki
-✓ Key Pair banaya
-✓ Security Group set kiya
-✓ Server launch kiya — SUCCESS!
-✓ Server properly stop kiya
+Step 1: Name diya           : MyFirstServer
+Step 2: AMI select ki       : Amazon Linux 2023
+Step 3: Instance type       : t3.micro (Free Tier)
+Step 4: Key Pair banaya     : akash-key.pem download kiya
+Step 5: Security Group      : Port 22 (SSH) allow kiya
+Step 6: Launch Instance     : SUCCESS! ✓
+Step 7: Server stop kiya    : Charges bachane ke liye
+```
+
+**Banaye Gaye Resources:**
+```
+Instance ID : i-0efc95a4ab1e35958
+Name        : MyFirstServer
+Type        : t3.micro (2 vCPU, 1GB RAM)
+Public IP   : 13.201.16.163
+Private IP  : 172.31.45.192
+Region      : ap-south-1a (Mumbai)
+State       : Stopped ✓
 ```
 
 ---

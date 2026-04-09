@@ -49,14 +49,33 @@ Give only the minimum permissions required to perform a specific job — nothing
 
 ---
 
-## WHAT WE DID TODAY
+## HANDS-ON — AAJ KYA KIYA
+
+**AWS Console → IAM → User Groups → Create group**
 
 ```
-Created Group:  Developers
-Permission:     AmazonEC2FullAccess
-Created User:   akash-dev-user
-Added to Group: Developers
-Result:         User can access EC2 only
+Step 1: Group banaya
+        Group name  : Developers
+        Policy      : AmazonEC2FullAccess attach ki
+
+Step 2: IAM User banaya
+        AWS Console → IAM → Users → Create user
+        Username    : akash-dev-user
+        Access      : AWS Console access enable kiya
+        Password    : Custom password set kiya
+
+Step 3: User ko Group mein add kiya
+        akash-dev-user → Developers group mein add kiya
+
+Result: akash-dev-user sirf EC2 access kar sakta hai
+        S3, RDS, billing — kuch nahi ✓
+```
+
+**Principle of Least Privilege applied:**
+```
+Developers group = Sirf EC2FullAccess
+akash-dev-user   = Group ke through sirf EC2 access
+Root Account     = Daily use nahi kiya ✓
 ```
 
 ---

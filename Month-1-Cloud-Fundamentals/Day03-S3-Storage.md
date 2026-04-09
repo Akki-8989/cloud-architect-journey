@@ -97,6 +97,53 @@
 
 ---
 
+## HANDS-ON — AAJ KYA KIYA
+
+### Step 1 — S3 Bucket Banaya
+**AWS Console → S3 → Create bucket**
+
+```
+Bucket name    : akash-cloud-bucket (globally unique naam)
+Region         : ap-south-1 (Mumbai)
+Block Public Access : On (default — private rakha)
+Versioning     : Enabled kiya
+```
+
+**Result:** Bucket successfully created ✓
+
+---
+
+### Step 2 — File Upload Ki
+**Bucket open kiya → Upload button click kiya**
+
+```
+File upload kiya: koi bhi PDF ya image
+Upload ke baad Object dikhne laga bucket mein ✓
+```
+
+---
+
+### Step 3 — Static Website Hosting Explore Kiya
+**Bucket → Properties tab → Static website hosting**
+
+```
+Static website hosting enable kiya
+Index document: index.html diya
+Endpoint URL mil gayi jisse website access hoti ✓
+```
+
+---
+
+### Step 4 — Versioning Test Kiya
+**Same file dobara upload ki — alag content ke saath**
+
+```
+Show versions toggle on kiya
+Dono versions dikh rahe the — purana aur naya ✓
+```
+
+---
+
 ## KEY POINTS — YAAD RAKHO
 ```
 1. S3 = Object Storage (files ke liye)
