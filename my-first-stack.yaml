@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Akash ka pehla CloudFormation Stack - S3 Bucket + SNS Topic
+
+Resources:
+  MyAppBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'akash-cfn-demo-${AWS::AccountId}'
+      Tags:
+        - Key: Project
+          Value: CloudArchitectJourney
+        - Key: Day
+          Value: Day19
+
+  MyOrderTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: akash-cfn-orders-topic
+      Tags:
+        - Key: Project
+          Value: CloudArchitectJourney
