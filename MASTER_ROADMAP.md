@@ -51,6 +51,25 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 
 ---
 
+## PRE-FOUNDATION — NETWORKING & OS FUNDAMENTALS
+**Status: ALREADY COVERED (5 years Software Developer experience)**
+**Kharcha: Rs. 0**
+
+```
+✅ Linux/OS Basics       — File system, processes, permissions (daily use)
+✅ Git                   — Version control (5 years experience)
+✅ TCP/IP                — How internet packets travel (dev background)
+✅ HTTP / HTTPS          — Request-response cycle (built APIs)
+✅ DNS                   — Domain to IP resolution (used in projects)
+✅ Routing & NAT         — Network traffic flow (VPC mein cover kiya)
+✅ Basic Security        — Auth, encryption concepts (IAM mein cover kiya)
+
+Target achieved: Browser se server tak ka pura request flow explain kar sakte ho ✅
+Note: Ye ChatGPT ke Stage 1 (2-3 months) hai — dev experience ki wajah se already done!
+```
+
+---
+
 ## MONTH 1-2 — AWS FOUNDATIONS
 **Goal: AWS ka solid foundation banana**
 **Kharcha: Rs. 0**
@@ -155,12 +174,23 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 
 | Week | Topic | Task |
 |------|-------|------|
-| Week 1 | System Design fundamentals | Load Balancer, DB sharding, Caching, Multi-region |
+| Week 1 | System Design fundamentals | Scalability, Caching, Message Queues, Microservices, DR |
+| Week 1 | Real Architectures study | Netflix (streaming), Uber (real-time), Amazon (e-commerce) |
 | Week 2 | CI/CD — GitHub Actions + AWS CodePipeline | Auto-deploy pipeline banao |
 | Week 3 | **Project 1:** Scalable 3-Tier Web App | EC2 + RDS + ALB + Auto Scaling + CloudWatch |
-| Week 4 | **Project 2:** Full DevOps Pipeline | GitHub Actions + Terraform + Docker + EKS |
+| Week 3 | **Project 2:** Serverless API | Lambda + API Gateway + DynamoDB + S3 |
+| Week 4 | **Project 3:** Full DevOps Pipeline | GitHub Actions + Terraform + Docker + EKS |
+| Week 4 | **Project 4:** Secure Multi-Account Setup | Organizations + SCPs + CloudTrail + GuardDuty |
 
-**Milestone:** System Design ready + 2 Real Projects on GitHub
+**Har project mein zaroor hoga:**
+```
+→ Architecture diagram (draw.io)
+→ Cost estimation (AWS Pricing Calculator)
+→ Security design (IAM + encryption)
+→ Disaster Recovery plan (RTO/RPO define karo)
+```
+
+**Milestone:** System Design ready + 4 Real Projects on GitHub
 
 ---
 
