@@ -56,7 +56,7 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 **Kharcha: Rs. 0**
 
 ```
-✅ Linux/OS Basics       — File system, processes, permissions (daily use)
+⬜ Linux/OS Basics       — Day 28-29 mein cover karenge (2 sessions)
 ✅ Git                   — Version control (5 years experience)
 ✅ TCP/IP                — How internet packets travel (dev background)
 ✅ HTTP / HTTPS          — Request-response cycle (built APIs)
@@ -64,8 +64,8 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 ✅ Routing & NAT         — Network traffic flow (VPC mein cover kiya)
 ✅ Basic Security        — Auth, encryption concepts (IAM mein cover kiya)
 
-Target achieved: Browser se server tak ka pura request flow explain kar sakte ho ✅
-Note: Ye ChatGPT ke Stage 1 (2-3 months) hai — dev experience ki wajah se already done!
+Target: EC2 mein SSH karke confidently kaam kar sako ✅
+Note: Deep Linux admin nahi — sirf Cloud ke liye zaroori basics (2 sessions kafi hain!)
 ```
 
 ---
@@ -99,10 +99,12 @@ Note: Ye ChatGPT ke Stage 1 (2-3 months) hai — dev experience ki wajah se alre
 | Day 21 | VPC Advanced — Subnets, IGW, NAT Gateway | ✅ Done |
 | Day 22 | Cost Management — Budgets, Cost Explorer | ✅ Done |
 | Day 23 | Well-Architected Framework — 5 Pillars | ✅ Done |
-| Day 24 | AWS Security — KMS, Secrets Manager | ⬜ Pending |
-| Day 25 | AWS Organizations + Multi-Account | ⬜ Pending |
+| Day 24 | AWS Security — KMS, Secrets Manager | ✅ Done |
+| Day 25 | AWS Organizations + Multi-Account | ✅ Done |
 | Day 26 | Month 1-2 Revision + Mock Interview | ⬜ Pending |
 | Day 27 | Month 1-2 Final Test | ⬜ Pending |
+| Day 28 | Linux Basics — Commands, Permissions, SSH | ⬜ Pending |
+| Day 29 | Linux Hands-On — EC2 mein SSH karke practice | ⬜ Pending |
 
 **Milestone:** AWS ka solid foundation complete
 
