@@ -1,70 +1,111 @@
 # DAILY SESSION TEMPLATE
-### Mentor: Claude AI | Goal: Top-Class Cloud Architect | Target: 30-45 LPA
+### Mentor: Claude AI | Student: Akash | Goal: TOP-CLASS CLOUD ARCHITECT
+### Target: 20-28 LPA (Month 8) → 35-45 LPA (Year 3+)
 
 ---
 
-## HAR DIN KA STRUCTURE (1 Hour)
+## HAR DIN KA STRUCTURE (~2 Hours)
 
 ---
 
-### PART 1 — REVISION (15 Minutes)
-**Saare previous topics ke questions — ek bhi topic nahi chhodna**
-
-Har naye din se pehle — Day 1 se lekar last day tak ke saare topics ke sawal puchhe jayenge.
+### PART 1 — RECALL (10-15 min)
+**1-4-7 Rule — Kal ka topic yaad hai ya nahi**
 
 ```
-Format:
-- Q1: [Topic 1 se sawaal]
-- Q2: [Topic 2 se sawaal]
-- Q3: [Topic 3 se sawaal]
-... aur aage bhi
+→ Bina notes dekhe 2-3 questions ka jawab do
+→ Yaad nahi aaya → Yaad dilaaunga → Aage badhenge
+→ 1-4-7 Tracker update karo (REVISION_TRACKER.md)
 ```
 
-Rule: Agar jawab nahi aaya toh turant clear karo — phir naya topic shuru karo.
-
----
-
-### PART 2 — NAYA TOPIC (25 Minutes)
-
+**1-4-7 Rule:**
 ```
-Step 1: Problem batao — ye topic kyun zaroori hai
-Step 2: Concept explain karo — simple language mein
-Step 3: Real life example do
-Step 4: AWS mein kaise kaam karta hai
-Step 5: Architecture mein kahan fit hota hai
++1 din  → RECALL  : Bina notes explain karo
++4 din  → APPLY   : Real-world problem solve karo
++7 din  → TEACH   : Apne words mein likho + Interview Q&A
 ```
 
 ---
 
-### PART 3 — HANDS-ON (15 Minutes)
-
-Har topic AWS Console mein practically karna zaroori hai. Sirf padhna kaafi nahi.
+### PART 2 — NAYA TOPIC THEORY (30-40 min)
 
 ```
-Step by step instructions — screenshot ke saath confirm karo
-Kya karna hai + Kyun karna hai — dono batao
+Step 1: PROBLEM batao — ye topic kyun zaroori hai?
+Step 2: SOLUTION samjhao — concept clearly
+Step 3: ANALOGY do — Zomato/Swiggy/PUBG/Bank
+Step 4: DIAGRAM banao — text se architecture
+Step 5: COMPARISON — similar services se fark
+Step 6: Quick Q&A — concept clear hua?
 ```
 
----
-
-### PART 4 — NOTES + INTERVIEW Q&A (5 Minutes)
-
+**Teaching Rules:**
 ```
-- Notes file banana: DayXX-TopicName.md
-- GitHub pe push karna
-- Minimum 5 interview questions with proper answers
-- Questions English mein — jaise real interview mein puchha jaata hai
-- Answers English mein — jaise real interview mein diya jaata hai
+→ Hinglish mein samjhaunga
+→ Koi shortcut nahi — properly samjhaunga
+→ Stuck ho → Turant bolo → Dobara samjhaunga
+→ Concept clear hone ke baad hi aage badhenge
 ```
 
 ---
 
-### PART 5 — DAILY SUMMARY + PHONE TRICKS
+### PART 3 — HANDS-ON ⚠️ (30-40 min) — KABHI SKIP NAHI!
 
 ```
-- Aaj kya seekha — 5 one-liners
-- Raat ko mobile pe padhne ke liye short tricks
-- Yaad rakhne ke liye story/trick
+Step 1: AWS Console pe resource create karo
+Step 2: Kaam karta hai verify karo
+Step 3: Real scenario test karo
+Step 4: CLEANUP karo! (bill nahi aana chahiye)
+```
+
+**Format:**
+```
+→ Step by step guide dunga
+→ Tum karo → Screenshot do → Next step
+→ Error aaye → Milke fix karenge
+```
+
+**Cleanup Checklist:**
+```
+❗ EC2       → Stop ya Terminate
+❗ RDS       → Delete
+❗ NAT GW    → Delete (costly!)
+❗ Load Balancer → Delete
+❗ Elastic IP → Release
+
+Free hain (rehne do):
+✅ S3 buckets (small data)
+✅ IAM users/roles
+✅ Security Groups
+✅ VPCs
+```
+
+---
+
+### PART 4 — NOTES + GITHUB (10-15 min)
+
+```
+Notes mein HAMESHA hoga:
+✅ Real world problem (kyun zaroori hai)
+✅ Solution + Concept
+✅ Analogy (Zomato/Swiggy/PUBG)
+✅ Architecture diagram (text se)
+✅ Hands-On steps (kya kiya)
+✅ Interview Q&A (minimum 4-5 — English mein)
+✅ Key Points (phone pe save karne layak)
+
+GitHub:
+→ git add → git commit → git push
+→ Commit: "Day XX - Topic complete"
+```
+
+---
+
+### PART 5 — NEXT DAY PREP (5 min)
+
+```
+→ 1-4-7 Tracker update kiya? ✅
+→ Aaj ka topic Tracker mein add kiya? ✅
+→ Koi doubt bacha? Seedha poocho! ✅
+→ Kal ka topic: [bataunga] ✅
 ```
 
 ---
