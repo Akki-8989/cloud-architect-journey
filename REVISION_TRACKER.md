@@ -66,7 +66,9 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 25 - AWS Organizations | 2026-06-18 | 2026-06-19 | 2026-06-22 | 2026-06-25 | 📚 Aaj padha |
+| Day 31 - HA Architecture (Hands-On) | 2026-06-28 | 2026-06-29 | 2026-07-02 | 2026-07-05 | 📚 Aaj kiya |
+| Day 30 - VPC Deep Dive | 2026-06-26 | 2026-06-27 | 2026-06-30 | 2026-07-03 | ✅ Theory done, Hands-On pending |
+| Day 25 - AWS Organizations | 2026-06-18 | 2026-06-19 | 2026-06-22 | 2026-06-25 | ❌ Miss hua |
 | Day 24 - KMS + Secrets Manager | 2026-06-02 | 2026-06-03 | 2026-06-06 | 2026-06-09 | ❌ Miss hua |
 | Day 23 - Well-Architected | 2026-05-31 | 2026-06-01 | 2026-06-04 | 2026-06-07 | ❌ Miss hua |
 | Day 22 - Cost Management | 2026-05-09 | 2026-05-10 | 2026-05-13 | 2026-05-16 | ❌ Miss hua |

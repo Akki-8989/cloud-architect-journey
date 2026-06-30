@@ -43,6 +43,9 @@ Step 6: Quick Q&A — concept clear hua?
 → Koi shortcut nahi — properly samjhaunga
 → Stuck ho → Turant bolo → Dobara samjhaunga
 → Concept clear hone ke baad hi aage badhenge
+→ WORDING CORRECTION RULE: Agar answer ki wording galat ho →
+  Exact sahi wording batao + Notes mein "Quick Wording" section mein add karo
+  (Half-correct answer = wrong answer in interview!)
 ```
 
 ---
