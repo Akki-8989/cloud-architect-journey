@@ -102,7 +102,28 @@ GitHub:
 
 ---
 
-### PART 5 — NEXT DAY PREP (5 min)
+### PART 5 — MOCK INTERVIEW (10 min) — ENGLISH MEIN!
+
+```
+→ 2-3 questions puchhunga — English mein jawab do!
+→ Spoken style mein answer karo (interview jaisa!)
+→ Wording galat hui → Main correct karunga
+→ Better answer suggest karunga
+
+Format:
+Q: "What is [topic]?"
+Tum: English mein answer likho
+Main: Wording fix + Better version bataunga
+
+Kyun zaroori hai:
+→ Technical knowledge hona + English mein bolna = Job milti hai!
+→ Sirf knowledge = Interview fail ho sakta hai ❌
+→ Knowledge + Communication = SUCCESS ✅
+```
+
+---
+
+### PART 6 — NEXT DAY PREP (5 min)
 
 ```
 → 1-4-7 Tracker update kiya? ✅
