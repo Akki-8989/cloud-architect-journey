@@ -261,6 +261,72 @@ Koi bhi failure → System chal raha hai! ✅
 
 ---
 
+## Hands-On — Aaj Kya Kiya
+
+### Step 1 — Launch Template Banaya
+```
+EC2 → Launch Templates → Create launch template
+
+Settings:
+→ Name          : akash-webserver-template
+→ AMI           : Amazon Linux 2023
+→ Instance type : t3.micro
+→ Key pair      : linux-practice-key
+→ Security group: launch-wizard-2 (HTTP + SSH)
+
+User Data script:
+#!/bin/bash
+yum update -y
+yum install nginx -y
+systemctl start nginx
+systemctl enable nginx
+echo "<h1>Hello from Auto Scaling! Server: $(hostname)</h1>" > /usr/share/nginx/html/index.html
+
+Result: lt-07f5d0a2592384e1b ✅
+```
+
+### Step 2 — Auto Scaling Group Banaya
+```
+EC2 → Auto Scaling Groups → Create
+
+Settings:
+→ Name          : akash-asg-demo
+→ Template      : akash-webserver-template
+→ AZs           : ap-south-1a + 1b + 1c (3 zones!)
+→ Load Balancer : New ALB (akash-asg-demo-1)
+→ Scheme        : Internet-facing
+→ Health check  : EC2 + ELB dono
+→ Desired       : 2
+→ Min           : 1
+→ Max           : 4
+→ Scaling policy: Target tracking (CPU 50%)
+
+Result: 2/2 Healthy ✅
+```
+
+### Step 3 — Load Balancing LIVE Dekha!
+```
+ALB DNS: akash-asg-demo-1-501125060.ap-south-1.elb.amazonaws.com
+
+Browser open kiya:
+Pehli baar : "Hello from Auto Scaling! Server: ip-172-31-28-163" ✅
+Refresh kiya: "Hello from Auto Scaling! Server: ip-172-31-41-76"  ✅
+
+Alag server IP! = ALB ne traffic doosre server pe bheja! ✅
+Ye hai Load Balancing LIVE! 🎉
+```
+
+### Step 4 — Cleanup
+```
+✅ ASG deleted    → EC2 instances auto-terminate hue
+✅ ALB deleted
+✅ Target Group deleted
+✅ Launch Template deleted
+→ Bill zero! ✅
+```
+
+---
+
 ## Interview Questions & Answers
 
 **Q1. What is High Availability and how is it achieved in AWS?**
