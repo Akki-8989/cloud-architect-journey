@@ -123,7 +123,36 @@ Kyun zaroori hai:
 
 ---
 
-### PART 6 — NEXT DAY PREP (5 min)
+### PART 6 — NOTEBOOK WRITING (5 min) — HAATH SE LIKHO!
+
+```
+Har session ke baad physical notebook mein likho:
+
+1. Topic naam + Date
+2. Ek line definition (apne words mein)
+3. Real world analogy (Zomato/PUBG/Bank)
+4. 3 key points bullet mein
+
+Format (notebook mein):
+┌─────────────────────────────────────┐
+│ Day 32 — WAF                        │
+│ WAF = HTTP request ka content check │
+│ Analogy: Airport baggage scanner    │
+│ Key:                                │
+│  1. SQL Injection block             │
+│  2. XSS block                       │
+│  3. ALB/CloudFront pe attach hota   │
+└─────────────────────────────────────┘
+
+Kyun zaroori hai:
+→ Haath se likhna = Brain mein deep set hota hai ✅
+→ Interview mein whiteboard pe likhna padta hai ✅
+→ Revision notebook = Quick recap before interview ✅
+```
+
+---
+
+### PART 7 — NEXT DAY PREP (5 min)
 
 ```
 → 1-4-7 Tracker update kiya? ✅
