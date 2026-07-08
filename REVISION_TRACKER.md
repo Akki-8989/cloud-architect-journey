@@ -66,7 +66,8 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 35 - Serverless & Lambda | 2026-07-07 | 2026-07-08 | 2026-07-11 | 2026-07-14 | 📚 Aaj kiya |
+| Day 36 - SQS + SNS (Messaging) | 2026-07-08 | 2026-07-09 | 2026-07-12 | 2026-07-15 | 📚 Aaj kiya |
+| Day 35 - Serverless & Lambda | 2026-07-07 | 2026-07-08 | 2026-07-11 | 2026-07-14 | ✅ Done |
 | Day 34 - CloudFront (CDN) | 2026-07-06 | 2026-07-07 | 2026-07-10 | 2026-07-13 | ✅ Done |
 | Day 33 - Route 53 (DNS + Routing Policies) | 2026-07-05 | 2026-07-06 | 2026-07-09 | 2026-07-12 | ✅ Done |
 | Day 32 - Advanced Security (WAF, Shield, GuardDuty, Inspector) | 2026-07-02 | 2026-07-03 | 2026-07-06 | 2026-07-09 | ✅ Done |
