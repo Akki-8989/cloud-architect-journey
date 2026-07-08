@@ -126,27 +126,45 @@ Kyun zaroori hai:
 ### PART 6 — NOTEBOOK WRITING (5 min) — HAATH SE LIKHO!
 
 ```
-Har session ke baad physical notebook mein likho:
+Har session ke baad physical notebook mein likho.
 
-1. Topic naam + Date
-2. Ek line definition (apne words mein)
-3. Real world analogy (Zomato/PUBG/Bank)
-4. 3 key points bullet mein
+Language Rule:
+→ Technical words ENGLISH mein likho  (SQS, Lambda, Queue, Trigger)
+→ Explanation HINDI mein likho        (kya karta hai, kyun use karte hain)
+→ Pure Hindi ya Pure English NAHI     (Hinglish = best for understanding)
 
 Format (notebook mein):
-┌─────────────────────────────────────┐
-│ Day 32 — WAF                        │
-│ WAF = HTTP request ka content check │
-│ Analogy: Airport baggage scanner    │
-│ Key:                                │
-│  1. SQL Injection block             │
-│  2. XSS block                       │
-│  3. ALB/CloudFront pe attach hota   │
-└─────────────────────────────────────┘
+┌──────────────────────────────────────────────────────┐
+│ Day 36 — SQS + SNS             Date: 08 July 2026   │
+│                                                      │
+│ SQS kya hai:                                         │
+│   Message Queue service hai.                         │
+│   Producer message daalta hai → Queue mein safe      │
+│   rehta hai → Consumer ready hua → Uthaya → Process. │
+│                                                      │
+│ SNS kya hai:                                         │
+│   Pub/Sub Notification service hai.                  │
+│   1 message publish karo → Sab subscribers ko        │
+│   turant milta hai.                                  │
+│                                                      │
+│ Fark:                                                │
+│   SQS = 1 Consumer (Post Box)                        │
+│   SNS = Multiple Consumers (WhatsApp Group)          │
+│                                                      │
+│ Combined use:                                        │
+│   Order aaya → SNS broadcast kiya → SQS Queue 1     │
+│   (Kitchen) + SQS Queue 2 (Payment) — dono ko       │
+│   ek saath pata chala ✅                             │
+│                                                      │
+│ Key Points:                                          │
+│   1. SQS = Message safe rakhta hai (crash safe)     │
+│   2. SNS = Ek message → Multiple services ko        │
+│   3. Dono saath = Fan-out pattern (best practice)   │
+└──────────────────────────────────────────────────────┘
 
 Kyun zaroori hai:
 → Haath se likhna = Brain mein deep set hota hai ✅
-→ Interview mein whiteboard pe likhna padta hai ✅
+→ Hinglish format = Reading easy + Concept clear ✅
 → Revision notebook = Quick recap before interview ✅
 ```
 
