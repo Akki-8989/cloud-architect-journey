@@ -129,37 +129,39 @@ Kyun zaroori hai:
 Har session ke baad physical notebook mein likho.
 
 Language Rule:
-→ Technical words ENGLISH mein likho  (SQS, Lambda, Queue, Trigger)
-→ Explanation HINDI mein likho        (kya karta hai, kyun use karte hain)
-→ Pure Hindi ya Pure English NAHI     (Hinglish = best for understanding)
+→ ENGLISH mein likho — full sentences
+→ Sirf concept samjhane ke liye Hinglish allowed
+  Example: "SQS stores the message (queue mein safe rehta hai)"
+→ Pure Hindi NAHI — English practice hogi interview ke liye ✅
 
 Format (notebook mein):
 ┌──────────────────────────────────────────────────────┐
 │ Day 36 — SQS + SNS             Date: 08 July 2026   │
 │                                                      │
-│ SQS kya hai:                                         │
-│   Message Queue service hai.                         │
-│   Producer message daalta hai → Queue mein safe      │
-│   rehta hai → Consumer ready hua → Uthaya → Process. │
+│ SQS — Simple Queue Service:                          │
+│   SQS is a message queue service.                    │
+│   Producer sends a message → stored in queue         │
+│   safely → Consumer picks it up when ready.          │
+│   (queue mein pada rehta hai — lost nahi hota) ✅   │
 │                                                      │
-│ SNS kya hai:                                         │
-│   Pub/Sub Notification service hai.                  │
-│   1 message publish karo → Sab subscribers ko        │
-│   turant milta hai.                                  │
+│ SNS — Simple Notification Service:                   │
+│   SNS is a pub/sub notification service.             │
+│   1 message published → all subscribers              │
+│   receive it instantly. (WhatsApp group jaisa) ✅   │
 │                                                      │
-│ Fark:                                                │
-│   SQS = 1 Consumer (Post Box)                        │
-│   SNS = Multiple Consumers (WhatsApp Group)          │
+│ Difference:                                          │
+│   SQS = 1 to 1 (Queue / Post Box)                   │
+│   SNS = 1 to Many (Broadcast)                        │
 │                                                      │
-│ Combined use:                                        │
-│   Order aaya → SNS broadcast kiya → SQS Queue 1     │
-│   (Kitchen) + SQS Queue 2 (Payment) — dono ko       │
-│   ek saath pata chala ✅                             │
+│ Combined — Fan-out Pattern:                          │
+│   Order placed → SNS broadcasts →                    │
+│   SQS Queue 1 (Kitchen) + SQS Queue 2 (Payment)     │
+│   Both notified at the same time ✅                  │
 │                                                      │
 │ Key Points:                                          │
-│   1. SQS = Message safe rakhta hai (crash safe)     │
-│   2. SNS = Ek message → Multiple services ko        │
-│   3. Dono saath = Fan-out pattern (best practice)   │
+│   1. SQS keeps message safe if consumer crashes      │
+│   2. SNS sends 1 message to multiple services        │
+│   3. Together = Fan-out pattern (best practice)      │
 └──────────────────────────────────────────────────────┘
 
 Kyun zaroori hai:
