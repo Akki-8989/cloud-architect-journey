@@ -66,7 +66,8 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 38 - DynamoDB (NoSQL) | 2026-07-10 | 2026-07-11 | 2026-07-14 | 2026-07-17 | 📚 Aaj kiya |
+| Day 39 - CloudWatch (Monitoring) | 2026-07-11 | 2026-07-12 | 2026-07-15 | 2026-07-18 | 📚 Aaj kiya |
+| Day 38 - DynamoDB (NoSQL) | 2026-07-10 | 2026-07-11 | 2026-07-14 | 2026-07-17 | ✅ Done |
 | Day 37 - API Gateway | 2026-07-09 | 2026-07-10 | 2026-07-13 | 2026-07-16 | ✅ Done |
 | Day 36 - SQS + SNS (Messaging) | 2026-07-08 | 2026-07-09 | 2026-07-12 | 2026-07-15 | ✅ Done |
 | Day 35 - Serverless & Lambda | 2026-07-07 | 2026-07-08 | 2026-07-11 | 2026-07-14 | ✅ Done |
