@@ -66,13 +66,13 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 39 - CloudWatch (Monitoring) | 2026-07-11 | 2026-07-12 | 2026-07-15 | 2026-07-18 | 📚 Aaj kiya |
-| Day 38 - DynamoDB (NoSQL) | 2026-07-10 | 2026-07-11 | 2026-07-14 | 2026-07-17 | ✅ Done |
-| Day 37 - API Gateway | 2026-07-09 | 2026-07-10 | 2026-07-13 | 2026-07-16 | ✅ Done |
-| Day 36 - SQS + SNS (Messaging) | 2026-07-08 | 2026-07-09 | 2026-07-12 | 2026-07-15 | ✅ Done |
-| Day 35 - Serverless & Lambda | 2026-07-07 | 2026-07-08 | 2026-07-11 | 2026-07-14 | ✅ Done |
-| Day 34 - CloudFront (CDN) | 2026-07-06 | 2026-07-07 | 2026-07-10 | 2026-07-13 | ✅ Done |
-| Day 33 - Route 53 (DNS + Routing Policies) | 2026-07-05 | 2026-07-06 | 2026-07-09 | 2026-07-12 | ✅ Done |
+| Day 39 - CloudWatch (Monitoring) | 2026-07-11 | 2026-07-12 ✅ | 2026-07-15 | 2026-07-18 | ✅ Done |
+| Day 38 - DynamoDB (NoSQL) | 2026-07-10 | 2026-07-11 ✅ | 2026-07-14 | 2026-07-17 | ✅ Done |
+| Day 37 - API Gateway | 2026-07-09 | 2026-07-10 ✅ | 2026-07-13 ✅ | 2026-07-16 | ✅ Done |
+| Day 36 - SQS + SNS (Messaging) | 2026-07-08 | 2026-07-09 ✅ | 2026-07-12 ✅ | 2026-07-15 | ✅ Done |
+| Day 35 - Serverless & Lambda | 2026-07-07 | 2026-07-08 ✅ | 2026-07-11 ✅ | 2026-07-14 | ✅ Done |
+| Day 34 - CloudFront (CDN) | 2026-07-06 | 2026-07-07 ✅ | 2026-07-10 ✅ | 2026-07-13 ✅ | ✅ Done |
+| Day 33 - Route 53 (DNS + Routing Policies) | 2026-07-05 | 2026-07-06 ✅ | 2026-07-09 ✅ | 2026-07-12 ✅ | ✅ Done |
 | Day 32 - Advanced Security (WAF, Shield, GuardDuty, Inspector) | 2026-07-02 | 2026-07-03 | 2026-07-06 | 2026-07-09 | ✅ Done |
 | Day 31 - HA Architecture (Hands-On) | 2026-06-28 | 2026-06-29 | 2026-07-02 | 2026-07-05 | ✅ Done |
 | Day 30 - VPC Deep Dive | 2026-06-26 | 2026-06-27 | 2026-06-30 | 2026-07-03 | ✅ Done |
