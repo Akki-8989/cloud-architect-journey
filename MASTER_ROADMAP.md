@@ -353,15 +353,34 @@ Year 3+  (Architect title):    35-45 LPA — Solutions Architect
 6. **Projects banana** — certificate se zyada important hain
 7. **System Design practice** — Month 7 se daily 1 question
 8. **Claude se poocho** — koi bhi doubt, seedha poocho
-9. **"KYA" ke saath "KYUN" hamesha poochho** ← AI-proof rule!
+9. **PROPER DEPTH se samjho — short mein nahi** ← Most important!
+10. **"KYA" ke saath "KYUN" hamesha poochho** ← AI-proof rule!
 
-**Rule 9 — Har service ke baad 3 sawaal:**
+**Rule 9 — Proper Depth ka matlab:**
 ```
-→ Isko KAB use karu?
-→ Isko KAB NA use karu?
-→ Alternative kya tha, aur YE KYUN chuna?
+❌ Wrong approach (short):
+"Lambda serverless hai, event pe chalta hai" ← sirf surface level
 
-Kyun zaroori hai:
+✅ Correct approach (proper depth):
+Problem kya thi? → EC2 24/7 bill aata tha chahe traffic ho ya na ho
+Solution kaise? → Lambda sirf tab chalta hai jab event aata hai
+Andar kya hota? → Event trigger → AWS container spin up →
+                  Code run → Response → Container band
+Kab use karu?   → Short tasks, event-driven, unpredictable traffic
+Kab NA use karu? → 15 min se zyada tasks, persistent connections
+Alternative?    → EC2 tha, Lambda isliye chuna kyunki pay-per-use
+
+Depth se samajhna = Interview mein confidently explain karna
+                  = Real problems solve karna
+                  = TOP-CLASS ARCHITECT banna ✅
+```
+
+**Rule 10 — Har service ke baad 3 sawaal:**
+```
+1. Isko KAB use karu?        (exact scenario)
+2. Isko KAB NA use karu?     (limitations + kyun avoid karein)
+3. Alternative kya tha, YE KYUN chuna? (comparison + decision)
+
 "Kya hai" = Information → AI bhi de sakta hai
 "Kyun choose kiya" = Decision-making → Sirf tum kar sakte ho ✅
 
