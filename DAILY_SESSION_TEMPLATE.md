@@ -37,6 +37,28 @@ Step 5: COMPARISON — similar services se fark
 Step 6: Quick Q&A — concept clear hua?
 ```
 
+**HAR NAYE SERVICE KE BAAD — 3 SAWAAL ZAROOR POOCHHO:**
+```
+1. Isko KAB use karu?
+   (Use case kya hai — kaunsi situation mein perfect fit)
+
+2. Isko KAB NA use karu?
+   (Kab avoid karna chahiye — limitations kya hain)
+
+3. Doosra option kya tha, aur maine YE KYUN chuna?
+   (Comparison — RDS vs DynamoDB, SQS vs SNS, EC2 vs Lambda)
+
+Example:
+Service: DynamoDB
+Kab use karu?  → Millions of users, simple key-value, serverless stack
+Kab NA use karu? → Complex JOINs chahiye, financial transactions, reporting
+Alternative kya tha? → RDS — lekin DynamoDB choose kiya kyunki
+                       schema flexible chahiye tha + auto scaling ✅
+
+Ye 3 sawaal = Interview mein "Why did you choose X?" ka perfect answer!
+Ye AI-proof skill hai — decision-making AI nahi le sakta! ✅
+```
+
 **Teaching Rules:**
 ```
 → Hinglish mein samjhaunga

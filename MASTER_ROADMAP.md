@@ -353,6 +353,20 @@ Year 3+  (Architect title):    35-45 LPA — Solutions Architect
 6. **Projects banana** — certificate se zyada important hain
 7. **System Design practice** — Month 7 se daily 1 question
 8. **Claude se poocho** — koi bhi doubt, seedha poocho
+9. **"KYA" ke saath "KYUN" hamesha poochho** ← AI-proof rule!
+
+**Rule 9 — Har service ke baad 3 sawaal:**
+```
+→ Isko KAB use karu?
+→ Isko KAB NA use karu?
+→ Alternative kya tha, aur YE KYUN chuna?
+
+Kyun zaroori hai:
+"Kya hai" = Information → AI bhi de sakta hai
+"Kyun choose kiya" = Decision-making → Sirf tum kar sakte ho ✅
+
+Ye difference hi tumhe AI-proof Cloud Architect banata hai!
+```
 
 ---
 
