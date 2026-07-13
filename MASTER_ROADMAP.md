@@ -16,9 +16,13 @@ Cloud Exp     : Starting from scratch (March 2026)
 
 ## VISION
 > **GOAL: TOP-CLASS CLOUD ARCHITECT — The Best**
-> 5 Year Software Developer → Cloud Engineer → Solutions Architect → TOP-CLASS CLOUD ARCHITECT
+> 5 Year Software Developer → Cloud/DevOps Engineer → Solutions Architect → TOP-CLASS CLOUD ARCHITECT
 > Zero Cloud Knowledge → Industry Expert
 > Current Salary → 20-28 LPA (Month 8) → 35-45 LPA (Year 2-3) → 50+ LPA (Top Architect)
+
+**Primary Target (Month 8):** Cloud Engineer / DevOps Engineer ← Realistic first step
+**Stretch Target (Month 8):** Solutions Architect (Associate) ← Possible with strong projects
+**Long Term:** TOP-CLASS CLOUD ARCHITECT — The Best (non-negotiable!)
 
 ---
 
@@ -52,20 +56,25 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 ---
 
 ## PRE-FOUNDATION — NETWORKING & OS FUNDAMENTALS
-**Status: ALREADY COVERED (5 years Software Developer experience)**
 **Kharcha: Rs. 0**
 
 ```
-⬜ Linux/OS Basics       — Day 28-29 mein cover karenge (2 sessions)
-✅ Git                   — Version control (5 years experience)
-✅ TCP/IP                — How internet packets travel (dev background)
-✅ HTTP / HTTPS          — Request-response cycle (built APIs)
-✅ DNS                   — Domain to IP resolution (used in projects)
-✅ Routing & NAT         — Network traffic flow (VPC mein cover kiya)
-✅ Basic Security        — Auth, encryption concepts (IAM mein cover kiya)
+⬜ Linux/OS Basics       — Day 28-29 mein cover kiya ✅
+✅ Git                   — Version control (5 years experience) ✅
+⚠️ TCP/IP                — Dev background se basic pata hai
+                           lekin cloud-level depth zaroori hai (cover karo!)
+⚠️ HTTP / HTTPS          — API banaya = request/response pata hai
+                           lekin SSL termination, headers deep = cover karo
+⚠️ DNS                   — Route 53 mein practically sikha ✅
+⚠️ Routing & NAT         — VPC mein practically sikha ✅
+                           lekin subnet routing tables + NAT deep-dive = 1 session add karo
+⚠️ Basic Security        — IAM mein cover kiya ✅
 
-Target: EC2 mein SSH karke confidently kaam kar sako ✅
-Note: Deep Linux admin nahi — sirf Cloud ke liye zaroori basics (2 sessions kafi hain!)
+⚠️ = Developer experience hai lekin cloud-level depth assume mat karo!
+    Practically karo toh pakka hoga.
+
+Target: EC2 mein SSH karo + VPC routing confidently samjho ✅
+Extra Session Added: Day 30 (VPC Deep Dive) ne NAT/Routing cover kiya ✅
 ```
 
 ---
@@ -110,18 +119,31 @@ Note: Deep Linux admin nahi — sirf Cloud ke liye zaroori basics (2 sessions ka
 
 ---
 
-## MONTH 3 — AWS CORE SERVICES
-**Goal: Advanced services master karo**
+## MONTH 3 — AWS CORE SERVICES + SCRIPTING
+**Goal: Advanced services master karo + Python/Boto3 basics**
 **Kharcha: Rs. 500 (Udemy)**
 
 | Week | Topic | Hands-On |
 |------|-------|----------|
 | Week 1 | Load Balancer + Auto Scaling deep dive | Web app with HA deploy karo |
-| Week 2 | Route53 + CloudFront | DNS + CDN setup karo |
-| Week 3 | Lambda + API Gateway (Serverless) | Serverless function banao |
-| Week 4 | Advanced Networking + High Availability | Multi-AZ architecture banao |
+| Week 2 | Route53 + CloudFront + Advanced Networking | DNS + CDN + NAT deep-dive |
+| Week 3 | Lambda + API Gateway (Serverless) | Serverless API banao |
+| Week 4 | **Python/Boto3 + Bash Scripting Basics** | AWS SDK se EC2/S3 automate karo |
 
-**Milestone:** 15+ AWS services hands-on experience
+**Week 4 Python/Boto3 Topics:**
+```
+→ Python basics (lists, dicts, functions) — quick refresher
+→ Boto3 (AWS SDK for Python) — S3 upload, EC2 list, DynamoDB read
+→ Bash basics — simple automation scripts
+→ Real script: "Nightly S3 backup + CloudWatch alert"
+
+Kyun zaroori hai:
+→ Cloud/DevOps interviews mein scripting poochha jaata hai
+→ Terraform ke saath Python scripts common hain
+→ "Automation" bina scripting ke adhoori hai
+```
+
+**Milestone:** 15+ AWS services + Python/Boto3 automation basics
 
 ---
 
@@ -161,12 +183,30 @@ Note: Deep Linux admin nahi — sirf Cloud ke liye zaroori basics (2 sessions ka
 
 | Week | Topic | Hands-On |
 |------|-------|----------|
-| Week 1 | Docker deep dive — Containers | App dockerize karo |
-| Week 2 | Terraform — Infrastructure as Code | VPC + EC2 Terraform se banao |
-| Week 3 | Kubernetes (EKS) — Pods, Deployments, Services, Ingress | EKS cluster deploy karo |
-| Week 4 | Kubernetes advanced — ConfigMaps, Secrets, HPA | Production-grade K8s setup |
+| Week 1 | Docker deep dive — Containers, Images, Compose | App dockerize karo |
+| Week 2 | Terraform — Infrastructure as Code | VPC + EC2 + S3 Terraform se banao |
+| Week 3 | Kubernetes (EKS) — Pods, Deployments, Services | EKS pe simple app deploy karo |
+| Week 4 | CI/CD — GitHub Actions + CodePipeline | Auto-deploy pipeline banao |
 
-**Milestone:** Docker + Terraform + Kubernetes hands-on complete
+**Kubernetes — Realistic Scope:**
+```
+Interview ke liye kafi hai:
+✅ Pods, Deployments, Services kya hote hain
+✅ EKS pe basic app deploy karna
+✅ "Kubernetes samajhta hoon, EKS use kiya hai"
+
+Skip karo abhi:
+❌ Production-grade K8s (ConfigMaps, HPA, Ingress deep)
+❌ K8s networking internals
+❌ Helm charts advanced
+
+Ye sab on-job seekhna zyada effective hai!
+```
+
+⚠️ Freelancing Month 6 mein shuru MAT karo — burnout risk!
+   (Docker + Terraform + K8s + CI/CD + Job = bahut zyada)
+
+**Milestone:** Docker + Terraform + K8s basics + CI/CD pipeline complete
 
 ---
 
@@ -196,17 +236,17 @@ Note: Deep Linux admin nahi — sirf Cloud ke liye zaroori basics (2 sessions ka
 
 ---
 
-## PARALLEL — FREELANCING (Month 6 se start)
+## PARALLEL — FREELANCING (Month 7-8 se start)
 **Goal: Real experience + Extra income**
 
 ```
-Platforms:
-→ Upwork — AWS projects (infra setup, migration)
-→ Toptal — Senior level (Month 8+)
-→ LinkedIn — Direct client approach
-→ Freelancer.com — Small AWS projects
+⚠️ Month 6 mein shuru MAT karo!
+   Month 6 = Docker + Terraform + K8s + CI/CD = already heavy
+   Freelancing + heavy learning + job = burnout guaranteed!
 
-Starting projects (Month 6):
+Month 7-8 se shuru karo — jab core learning ho chuka ho:
+
+Starting projects (Month 7):
 → AWS account setup + security hardening — $100-200
 → Simple VPC + EC2 deployment — $200-300
 → S3 + CloudFront static website — $100-150
@@ -216,10 +256,14 @@ Advanced projects (Month 8+):
 → Docker + EKS deployment — $800-1500
 → CI/CD pipeline setup — $500-800
 
+Platforms:
+→ Upwork — AWS projects (infra setup, migration)
+→ LinkedIn — Direct client approach
+→ Local companies — Maharashtra MSME (better rates!)
+
 Fayde:
 → Real client experience = Resume pe likhne layak ✅
 → Extra income ✅
-→ Portfolio strong hoti hai ✅
 → Interview mein "maine real clients ke liye kiya" ← Powerful!
 ```
 
@@ -236,13 +280,20 @@ Fayde:
 | Week 3 | 20+ companies apply karo — referrals dhundho |
 | Week 4 | Interviews + Offer negotiate karo |
 
-**Target Roles:**
+**Target Roles (Priority Order):**
 ```
-→ Cloud Infrastructure Engineer
-→ DevOps Engineer
-→ Solutions Architect (Associate)
-→ Senior Software Engineer (Cloud focused)
-→ Platform Engineer
+PRIMARY (realistic, high probability):
+→ Cloud Engineer / Cloud Infrastructure Engineer  ← Best first target
+→ DevOps Engineer                                 ← Strong option
+→ Senior Software Engineer (Cloud focused)        ← Leverage dev background
+→ Platform Engineer                               ← Growing demand
+
+STRETCH (possible with strong projects + SAA cert):
+→ Solutions Architect (Associate)                 ← Needs real cloud experience
+
+⚠️ Honest note: Architect roles usually need 1-2 yrs cloud experience.
+   Start as Cloud/DevOps Engineer → Architect title naturally aayega!
+   Goal = TOP-CLASS ARCHITECT — but path = Engineer first ✅
 ```
 
 **Milestone: 20-28 LPA Cloud/DevOps Engineer Role**
@@ -320,5 +371,6 @@ Year 3+  (Architect title):    35-45 LPA — Solutions Architect
 
 ---
 
-*Mentor: Claude AI | Start: March 2026 | Updated: May 2026*
+*Mentor: Claude AI | Start: March 2026 | Updated: July 2026*
 *"5 saal software exp + AWS cert + projects = 20-28 LPA target"*
+*Key changes July 2026: Networking depth added, Python/Boto3 added Month 3, K8s scope reduced, Freelancing pushed to Month 7, Role target realistic kiya*
