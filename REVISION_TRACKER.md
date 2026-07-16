@@ -66,7 +66,8 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 41 - ECS + Docker | 2026-07-15 | 2026-07-16 | 2026-07-19 | 2026-07-22 | 📚 Current |
+| Day 42 - ECR (Elastic Container Registry) | 2026-07-16 | 2026-07-17 | 2026-07-20 | 2026-07-23 | 📚 Current |
+| Day 41 - ECS + Docker | 2026-07-15 | 2026-07-16 | 2026-07-19 | 2026-07-22 | ✅ Done |
 | Day 39 - CloudWatch (Monitoring) | 2026-07-11 | 2026-07-12 ✅ | 2026-07-15 | 2026-07-18 | ✅ Done |
 | Day 38 - DynamoDB (NoSQL) | 2026-07-10 | 2026-07-11 ✅ | 2026-07-14 | 2026-07-17 | ✅ Done |
 | Day 37 - API Gateway | 2026-07-09 | 2026-07-10 ✅ | 2026-07-13 ✅ | 2026-07-16 | ✅ Done |
