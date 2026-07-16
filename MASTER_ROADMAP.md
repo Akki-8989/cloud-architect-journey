@@ -59,7 +59,10 @@ Month 8    → Job Switch           → 20-28 LPA TARGET
 **Kharcha: Rs. 0**
 
 ```
-⬜ Linux/OS Basics       — Day 28-29 mein cover kiya ✅
+⚠️ Linux/CLI Commands   — WEAK AREA — Har command explain karo!
+                           Docker, AWS CLI, Linux — sab explain hoga
+                           (Claude ka rule: command dene se pehle
+                            1. Kya karta hai, 2. Kyun chahiye, 3. Output kya hoga)
 ✅ Git                   — Version control (5 years experience) ✅
 ⚠️ TCP/IP                — Dev background se basic pata hai
                            lekin cloud-level depth zaroori hai (cover karo!)

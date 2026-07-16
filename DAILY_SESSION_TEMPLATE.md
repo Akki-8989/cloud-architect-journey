@@ -144,6 +144,32 @@ Step 4: CLEANUP karo! (bill nahi aana chahiye)
 → Error aaye → Milke fix karenge
 ```
 
+**⚠️ COMMAND EXPLAIN KARNE KA RULE — KABHI MAT BHOOLNA:**
+```
+Jab bhi koi CLI command do (AWS CLI, Docker, Linux, Git):
+HAMESHA ye 3 cheezein batao:
+
+1. YE COMMAND KYA KARTA HAI?
+   (Ek line mein — simple words mein)
+
+2. KYUN ZAROOR HAI YE STEP?
+   (Bina is step ke kya hoga?)
+
+3. OUTPUT KYA AAYEGA?
+   (Success mein kya dikhega)
+
+❌ GALAT (sirf command dena):
+   "docker push 313038579212.dkr.ecr.ap-south-1.amazonaws.com/akash-nginx-repo:latest"
+
+✅ SAHI (explain karke dena):
+   "docker push — ye command image ko ECR mein upload karta hai.
+    Kyun: Tag karne ke baad image sirf tumhare paas hai, ECR mein
+    nahi. Push karne se ECR mein actually save hoti hai.
+    Output: 'Pushed' dikhega har layer ke liye ✅"
+
+Akash ko commands nahi aate — har command properly explain karo!
+```
+
 **Cleanup Checklist:**
 ```
 ❗ EC2       → Stop ya Terminate
