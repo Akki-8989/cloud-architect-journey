@@ -66,7 +66,8 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 48 - Well-Architected Framework | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | 📚 Current |
+| Day 49 - Migration Strategies (7 R's) | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | 📚 Current |
+| Day 48 - Well-Architected Framework | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
 | Day 47 - Trusted Advisor + Cost Optimization | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
 | Day 46 - CloudTrail + AWS Config | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
 | Day 45 - SSM + Secrets Manager | 2026-07-21 | 2026-07-22 | 2026-07-25 | 2026-07-28 | ✅ Done |
