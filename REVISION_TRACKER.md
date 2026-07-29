@@ -66,7 +66,8 @@ Feynman Technique:
 
 | Topic | Padha | +1 RECALL | +4 APPLY | +7 TEACH | Status |
 |-------|-------|-----------|----------|----------|--------|
-| Day 50 - Security Services (WAF+Shield+GuardDuty+Macie) | 2026-07-28 | 2026-07-29 | 2026-08-01 | 2026-08-04 | 📚 Current |
+| Day 51 - Cost Explorer + Billing Management | 2026-07-29 | 2026-07-30 | 2026-08-02 | 2026-08-05 | 📚 Current |
+| Day 50 - Security Services (WAF+Shield+GuardDuty+Macie) | 2026-07-28 | 2026-07-29 | 2026-08-01 | 2026-08-04 | ✅ Done |
 | Day 49 - Migration Strategies (7 R's) | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
 | Day 48 - Well-Architected Framework | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
 | Day 47 - Trusted Advisor + Cost Optimization | 2026-07-22 | 2026-07-23 | 2026-07-26 | 2026-07-29 | ✅ Done |
